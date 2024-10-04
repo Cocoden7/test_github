@@ -4,7 +4,7 @@ import http.client
 
 # Get token
 tokenizer = get_token.Token()
-acces_token = tokenizer.get_token(False)
+acces_token = tokenizer.get_token(True)
 
 # I add a comment
 conn = http.client.HTTPSConnection("demo.neterium.cloud")
